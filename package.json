@@ -1,14 +1,9 @@
 {
-  "homepage": "https://abhi091020.github.io/react-auth-app",
-  "name": "react-auth-app",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "react-auth-app",          // app name is fine
+  "homepage": "https://abhi091020.github.io/FormPage", // points to repo
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -17,18 +12,9 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.36.0",
-    "@types/react": "^19.1.16",
-    "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.4",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9.36.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.22",
+    "vite": "^7.1.7",
     "gh-pages": "^6.3.0",
-    "globals": "^16.4.0",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.13",
-    "vite": "^7.1.7"
+    "tailwindcss": "^3.4.13"
   }
 }
