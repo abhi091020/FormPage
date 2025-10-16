@@ -23,7 +23,7 @@ export default function Auth() {
           className="bg-white p-8 rounded-lg shadow-md"
         >
           <h2 className="text-2xl font-bold mb-6 text-center">
-            {isLogin ? "Login" : "Signup"}
+            {isLogin ? "Logins" : "Signup"}
           </h2>
 
           {!isLogin && (
