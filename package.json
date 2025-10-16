@@ -1,6 +1,6 @@
 {
-  "name": "react-auth-app",          // app name is fine
-  "homepage": "https://abhi091020.github.io/FormPage", // points to repo
+  "name": "react-auth-app",
+  "homepage": "https://abhi091020.github.io/FormPage",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,8 +13,10 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.4",
-    "vite": "^7.1.7",
+    "autoprefixer": "^10.4.21",
     "gh-pages": "^6.3.0",
-    "tailwindcss": "^3.4.13"
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.13",
+    "vite": "^7.1.7"
   }
 }
