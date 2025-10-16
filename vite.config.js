@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/react-auth-app/", // <-- your repo name here
+  base: "/FormPage/", // <-- your repo name here
 });
