@@ -23,7 +23,7 @@ export default function Auth() {
           className="bg-white p-8 rounded-lg shadow-md"
         >
           <h2 className="text-2xl font-bold mb-6 text-center">
-            {isLogin ? "Logins" : "Signup"}
+            {isLogin ? "Login" : "Signup"}
           </h2>
 
           {!isLogin && (
@@ -54,6 +54,7 @@ export default function Auth() {
           <label className="block mb-2 text-sm font-medium text-gray-700">
             Password
           </label>
+
           <input
             type="password"
             value={password}
@@ -61,7 +62,9 @@ export default function Auth() {
             className="w-full mb-4 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
             required
           />
-
+          <button>Forgot Pass</button>
+          <br />
+          <br />
           <button
             type="submit"
             className={`w-full py-2 rounded text-white ${
